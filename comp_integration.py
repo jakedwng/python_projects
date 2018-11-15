@@ -1,6 +1,6 @@
 """
-In this project I coded four computational integration methods to find the angular diameter of
-an object with respect to its redshift, z.  I also graphed the results.
+In this project I used four computational integration methods to find the angular diameter of
+an object with respect to its redshift, z.  The results are graphed.
 """
 
 #I took the prefactor 1/(1+z) and multiplied it to the result obtained from integrating the integrand.
