@@ -1,7 +1,9 @@
 """
-I took the prefactor 1/(1+z) and multiplied it to
-the result obtained from integrating the integrand.
+In this project I coded four computational integration methods to find the angular diameter of
+an object with respect to its redshift, z.  I also graphed the results.
 """
+
+#I took the prefactor 1/(1+z) and multiplied it to the result obtained from integrating the integrand.
 
 #Import libraries
 from math import sqrt
@@ -20,7 +22,7 @@ axis = []
 #Creating list for numpy.trapz y values
 y_list = []
 
-#Defining iteration from 0 to 10
+#Defining iteration from 0 to 10, where z is redshift
 z = -1
 while(z < 10):
     z += 1
